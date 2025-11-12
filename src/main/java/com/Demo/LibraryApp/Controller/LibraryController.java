@@ -25,8 +25,6 @@ public class LibraryController {
     @Autowired
 	LibraryService ls;
     
-    
-
 //Adding new member
     @PostMapping("/members")
     public String addMember(@RequestBody Member member) {

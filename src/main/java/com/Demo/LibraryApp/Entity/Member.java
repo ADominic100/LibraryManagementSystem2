@@ -15,7 +15,6 @@ public class Member {
 	private String email;
 	
 	
-	
 	public Member() {
 		super();
 		
