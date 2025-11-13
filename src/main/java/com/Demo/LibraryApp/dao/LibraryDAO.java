@@ -63,8 +63,6 @@ public Book getBookById(int id) {
 		
 		return bRepo.findById(id).get();
 	}
-
-
 public String updateBook(int id, Book b1) {
 	Book existingBook = bRepo.findById(id).get();
 	if(existingBook!=null) {

@@ -15,8 +15,6 @@ public class Book {
 	private String author;
 	private boolean isBorrowed = false;
 	private String isbn= UUID.randomUUID().toString();
-	
-	
 	public Book() {
 		super();
 		
