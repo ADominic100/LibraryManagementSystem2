@@ -49,7 +49,6 @@ public class LibraryService {
 		
 		return ldao.getBookById(id);
 	}
-   
    public String updateBook(int id, Book b1) {
 		
 		return ldao.updateBook(id, b1);
