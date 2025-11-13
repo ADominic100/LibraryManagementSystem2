@@ -54,7 +54,6 @@ public class LibraryService {
 		
 		return ldao.updateBook(id, b1);
 	}
-   
    public String deleteBookbyId(int id) {
 	   return ldao.deleteBookbyId(id);
    }

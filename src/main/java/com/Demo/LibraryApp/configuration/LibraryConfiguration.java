@@ -19,4 +19,5 @@
  * InMemoryUserDetailsManager(admin); }
  * 
  * }
+ * 
  */
