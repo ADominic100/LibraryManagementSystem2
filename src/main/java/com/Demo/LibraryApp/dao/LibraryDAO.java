@@ -59,8 +59,7 @@ public class LibraryDAO {
 		
 		return bRepo.findAll();
 	}
-public Book getBookById(int id) {
-		
+public Book getBookById(int id) {	
 		return bRepo.findById(id).get();
 	}
 public String updateBook(int id, Book b1) {
