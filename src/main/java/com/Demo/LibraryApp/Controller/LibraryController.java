@@ -25,6 +25,12 @@ public class LibraryController {
     @Autowired
 	LibraryService ls;
     
+	/*
+	 * @GetMapping("/") public String showHome() { return "show"; }
+	 */
+    
+    
+    
 //Adding new member
     @PostMapping("/members")
     public String addMember(@RequestBody Member member) {
