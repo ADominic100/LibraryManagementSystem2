@@ -16,6 +16,7 @@
  * org.springframework.security.core.userdetails.User.builder().username(
  * "admin") .password("{noop}admin") .roles("ADMIN").build(); return new
  * InMemoryUserDetailsManager(admin); }
+ * 
  * }
  * 
  * 
